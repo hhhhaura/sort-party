@@ -7,18 +7,21 @@ public class GenerateObj : MonoBehaviour
     public GameObject GenerateObjPrefab;
     List<GameObject> objs = new List<GameObject>();
     public BoxCollider GenerateArea;
+	public bool TestGenerate = true;
     float GenerateTime = 1f;
 
 	// Update is called once per frame
 	void Update()
     {
-		GenerateTime -= Time.deltaTime;
-		if (GenerateTime < 0f)
+		if(TestGenerate)
 		{
-			GenerateOneObj();
-			GenerateTime = 1f;
+			GenerateTime -= Time.deltaTime;
+			if (GenerateTime < 0f)
+			{
+				GenerateOneObj();
+				GenerateTime = 1f;
+			}
 		}
-
 	}
 
     public void GenerateOneObj()
