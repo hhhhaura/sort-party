@@ -5,6 +5,7 @@ using UnityEngine;
 public class GenerateObj : MonoBehaviour
 {
     public GameObject GenerateObjPrefab;
+		public SwayController swayController;
     List<GameObject> objs = new List<GameObject>();
     public BoxCollider GenerateArea;
 	public bool TestGenerate = true;
@@ -27,6 +28,8 @@ public class GenerateObj : MonoBehaviour
     public void GenerateOneObj()
     {
         GameObject newObj = Instantiate(GenerateObjPrefab, GenerateArea.transform);
+        newObj.transform.parent = null;
+        newObj.transform.localScale = Vector3.one;
         objs.Add(newObj);
         newObj.transform.localPosition = RandomPointInBounds(GenerateArea.bounds);
     }

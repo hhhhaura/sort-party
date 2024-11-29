@@ -93,7 +93,7 @@ GameObject:
   - component: {fileID: 7982202955229303081}
   - component: {fileID: 456883507591026021}
   - component: {fileID: 8715501824473953749}
-  - component: {fileID: 3939031067259604345}
+  - component: {fileID: 2351343372982898769}
   m_Layer: 0
   m_Name: seed(Clone) (40)
   m_TagString: Untagged
@@ -187,7 +187,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &3939031067259604345
+--- !u!54 &2351343372982898769
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -195,8 +195,8 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 52993885300501542}
   serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 1.5
+  m_Mass: 3
+  m_Drag: 1
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -226,7 +226,7 @@ GameObject:
   - component: {fileID: 8280855471481377376}
   - component: {fileID: 5281468530225102309}
   - component: {fileID: 8803595734916499162}
-  - component: {fileID: 8320472489584691140}
+  - component: {fileID: 4714983426974883954}
   m_Layer: 0
   m_Name: seed(Clone) (8)
   m_TagString: Untagged
@@ -320,7 +320,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &8320472489584691140
+--- !u!54 &4714983426974883954
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -328,8 +328,8 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 114845069988719957}
   serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 1.5
+  m_Mass: 3
+  m_Drag: 1
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -359,7 +359,7 @@ GameObject:
   - component: {fileID: 5682504455660367585}
   - component: {fileID: 4885227625478080151}
   - component: {fileID: 4865766734177571175}
-  - component: {fileID: 8843734965974754154}
+  - component: {fileID: 7329757106850790148}
   m_Layer: 0
   m_Name: seed(Clone) (17)
   m_TagString: Untagged
@@ -453,7 +453,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &8843734965974754154
+--- !u!54 &7329757106850790148
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -461,8 +461,8 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 194116566050538878}
   serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 1.5
+  m_Mass: 3
+  m_Drag: 1
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -492,7 +492,7 @@ GameObject:
   - component: {fileID: 6629800700120579935}
   - component: {fileID: 6836105273569023987}
   - component: {fileID: 4383945892544450317}
-  - component: {fileID: 2946060562114242095}
+  - component: {fileID: 1389895842559047932}
   m_Layer: 0
   m_Name: seed(Clone) (1)
   m_TagString: Untagged
@@ -586,7 +586,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &2946060562114242095
+--- !u!54 &1389895842559047932
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -594,8 +594,8 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 236386478290034158}
   serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 1.5
+  m_Mass: 3
+  m_Drag: 1
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -625,7 +625,7 @@ GameObject:
   - component: {fileID: 3524604468511553240}
   - component: {fileID: 110650916290089702}
   - component: {fileID: 8094133262744719349}
-  - component: {fileID: 4665946049266896657}
+  - component: {fileID: 6774244101019418455}
   m_Layer: 0
   m_Name: seed(Clone) (42)
   m_TagString: Untagged
@@ -719,7 +719,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &4665946049266896657
+--- !u!54 &6774244101019418455
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -727,8 +727,8 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 285314546968911159}
   serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 1.5
+  m_Mass: 3
+  m_Drag: 1
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -758,7 +758,7 @@ GameObject:
   - component: {fileID: 1772900501247862114}
   - component: {fileID: 7354547928766823824}
   - component: {fileID: 5021796436004334113}
-  - component: {fileID: 4322395282933071758}
+  - component: {fileID: 5644455110490569124}
   m_Layer: 0
   m_Name: seed(Clone) (35)
   m_TagString: Untagged
@@ -852,7 +852,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &4322395282933071758
+--- !u!54 &5644455110490569124
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -860,8 +860,8 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 289629943796485353}
   serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 1.5
+  m_Mass: 3
+  m_Drag: 1
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -891,7 +891,7 @@ GameObject:
   - component: {fileID: 7972900004279599227}
   - component: {fileID: 4145462874629170090}
   - component: {fileID: 1316643224900303394}
-  - component: {fileID: 8468026656003403610}
+  - component: {fileID: 3778239909161410904}
   m_Layer: 0
   m_Name: seed(Clone) (39)
   m_TagString: Untagged
@@ -985,7 +985,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &8468026656003403610
+--- !u!54 &3778239909161410904
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -993,8 +993,8 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 619525736668345227}
   serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 1.5
+  m_Mass: 3
+  m_Drag: 1
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -1024,7 +1024,7 @@ GameObject:
   - component: {fileID: 5540291612130525919}
   - component: {fileID: 8964632629159663407}
   - component: {fileID: 9099978580019490914}
-  - component: {fileID: 79702754438873862}
+  - component: {fileID: 7262976344153585373}
   m_Layer: 0
   m_Name: seed(Clone) (18)
   m_TagString: Untagged
@@ -1118,7 +1118,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &79702754438873862
+--- !u!54 &7262976344153585373
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1126,8 +1126,8 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 847448457089936752}
   serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 1.5
+  m_Mass: 3
+  m_Drag: 1
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -1157,7 +1157,7 @@ GameObject:
   - component: {fileID: 97475979709182639}
   - component: {fileID: 3715836455182906652}
   - component: {fileID: 4754050755241013987}
-  - component: {fileID: 2378016621180203880}
+  - component: {fileID: 3084685844224768329}
   m_Layer: 0
   m_Name: seed(Clone) (47)
   m_TagString: Untagged
@@ -1251,7 +1251,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &2378016621180203880
+--- !u!54 &3084685844224768329
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1259,8 +1259,8 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1113448877077567161}
   serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 1.5
+  m_Mass: 3
+  m_Drag: 1
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -1290,7 +1290,7 @@ GameObject:
   - component: {fileID: 602065850177126502}
   - component: {fileID: 7113143737582044309}
   - component: {fileID: 1002004819107403640}
-  - component: {fileID: 6178999704995644008}
+  - component: {fileID: 1048763240424566637}
   m_Layer: 0
   m_Name: seed(Clone) (33)
   m_TagString: Untagged
@@ -1384,7 +1384,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &6178999704995644008
+--- !u!54 &1048763240424566637
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1392,8 +1392,8 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1325567804357700770}
   serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 1.5
+  m_Mass: 3
+  m_Drag: 1
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -1423,7 +1423,7 @@ GameObject:
   - component: {fileID: 1237050637060679476}
   - component: {fileID: 4969283122415842253}
   - component: {fileID: 2703424561814173779}
-  - component: {fileID: 8993352147704654868}
+  - component: {fileID: 8681172126545928262}
   m_Layer: 0
   m_Name: seed(Clone) (22)
   m_TagString: Untagged
@@ -1517,7 +1517,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &8993352147704654868
+--- !u!54 &8681172126545928262
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1525,8 +1525,8 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1339098451671951055}
   serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 1.5
+  m_Mass: 3
+  m_Drag: 1
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -1556,7 +1556,7 @@ GameObject:
   - component: {fileID: 4062381695998749296}
   - component: {fileID: 9141956859177381653}
   - component: {fileID: 8951027542660565949}
-  - component: {fileID: 4846329671191052394}
+  - component: {fileID: 4700722097376154217}
   m_Layer: 0
   m_Name: seed(Clone) (5)
   m_TagString: Untagged
@@ -1650,7 +1650,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &4846329671191052394
+--- !u!54 &4700722097376154217
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1658,8 +1658,8 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1387696068697605763}
   serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 1.5
+  m_Mass: 3
+  m_Drag: 1
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -1689,7 +1689,7 @@ GameObject:
   - component: {fileID: 2877345473691305616}
   - component: {fileID: 4337338964041757801}
   - component: {fileID: 7638751516751643038}
-  - component: {fileID: 2972993805171192613}
+  - component: {fileID: 6478747402814342366}
   m_Layer: 0
   m_Name: seed(Clone) (26)
   m_TagString: Untagged
@@ -1783,7 +1783,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &2972993805171192613
+--- !u!54 &6478747402814342366
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1791,8 +1791,8 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1677093709809554487}
   serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 1.5
+  m_Mass: 3
+  m_Drag: 1
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -1822,7 +1822,7 @@ GameObject:
   - component: {fileID: 3937334420897124575}
   - component: {fileID: 4540962927188399970}
   - component: {fileID: 3620139150974878928}
-  - component: {fileID: 6553305295439372567}
+  - component: {fileID: 3661147020365896825}
   m_Layer: 0
   m_Name: seed(Clone) (6)
   m_TagString: Untagged
@@ -1916,7 +1916,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &6553305295439372567
+--- !u!54 &3661147020365896825
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1924,8 +1924,8 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1718621711980924606}
   serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 1.5
+  m_Mass: 3
+  m_Drag: 1
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -1955,7 +1955,7 @@ GameObject:
   - component: {fileID: 6865540372849332567}
   - component: {fileID: 7033732991505990949}
   - component: {fileID: 6228403810195922167}
-  - component: {fileID: 609083492259610032}
+  - component: {fileID: 1142967899468308501}
   m_Layer: 0
   m_Name: seed(Clone) (25)
   m_TagString: Untagged
@@ -2049,7 +2049,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &609083492259610032
+--- !u!54 &1142967899468308501
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2057,8 +2057,8 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1763157396126322106}
   serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 1.5
+  m_Mass: 3
+  m_Drag: 1
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -2088,7 +2088,7 @@ GameObject:
   - component: {fileID: 7598886700164166776}
   - component: {fileID: 1253147991381650494}
   - component: {fileID: 2426648023020426684}
-  - component: {fileID: 6543139658316624385}
+  - component: {fileID: 3931631131434573794}
   m_Layer: 0
   m_Name: seed(Clone) (36)
   m_TagString: Untagged
@@ -2182,7 +2182,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &6543139658316624385
+--- !u!54 &3931631131434573794
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2190,8 +2190,8 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2088891845017523618}
   serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 1.5
+  m_Mass: 3
+  m_Drag: 1
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -2221,7 +2221,7 @@ GameObject:
   - component: {fileID: 8205159267062574632}
   - component: {fileID: 6142656295098586456}
   - component: {fileID: 7770941299819801356}
-  - component: {fileID: 332131324586766066}
+  - component: {fileID: 686353551421512405}
   m_Layer: 0
   m_Name: seed(Clone) (46)
   m_TagString: Untagged
@@ -2315,7 +2315,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &332131324586766066
+--- !u!54 &686353551421512405
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2323,8 +2323,8 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2345826087936555283}
   serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 1.5
+  m_Mass: 3
+  m_Drag: 1
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -2354,7 +2354,7 @@ GameObject:
   - component: {fileID: 5505802734755412953}
   - component: {fileID: 702352391702978551}
   - component: {fileID: 7361682885945653819}
-  - component: {fileID: 8906763662641487385}
+  - component: {fileID: 5954241049096517685}
   m_Layer: 0
   m_Name: seed(Clone) (14)
   m_TagString: Untagged
@@ -2448,7 +2448,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &8906763662641487385
+--- !u!54 &5954241049096517685
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2456,8 +2456,8 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2391277927970403482}
   serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 1.5
+  m_Mass: 3
+  m_Drag: 1
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -2487,7 +2487,7 @@ GameObject:
   - component: {fileID: 5697406569418918865}
   - component: {fileID: 2858088195798464252}
   - component: {fileID: 8831868874740853490}
-  - component: {fileID: 3135287015204674763}
+  - component: {fileID: 1948708617516701336}
   m_Layer: 0
   m_Name: seed(Clone) (44)
   m_TagString: Untagged
@@ -2581,7 +2581,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &3135287015204674763
+--- !u!54 &1948708617516701336
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2589,8 +2589,8 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2558333265237076926}
   serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 1.5
+  m_Mass: 3
+  m_Drag: 1
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -2608,6 +2608,58 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &2873241019517617191
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2451615785961879505}
+  - component: {fileID: 3932446493281254729}
+  m_Layer: 0
+  m_Name: SeedFlyController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2451615785961879505
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2873241019517617191}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.20500654, y: 0.57925385, z: -0.086994946}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1357795468922190994}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3932446493281254729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2873241019517617191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04cacf6c643e44c9bb2ea0886ce7cf3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetContainer: {fileID: 21022898232226055}
+  forceDirection: {x: 1, y: 0, z: 0}
+  forceIntensity: 5
+  randomDirectionAngle: 5
+  randomIntensityFactor: 1
+  fadeDuration: 3
+  destroyDelay: 0
+  trigger: 0
 --- !u!1 &3112433434769063893
 GameObject:
   m_ObjectHideFlags: 0
@@ -2620,7 +2672,7 @@ GameObject:
   - component: {fileID: 8235643266617877409}
   - component: {fileID: 6640262154725258575}
   - component: {fileID: 2755799929146686370}
-  - component: {fileID: 6860518780350320384}
+  - component: {fileID: 4806874212345624431}
   m_Layer: 0
   m_Name: seed(Clone) (43)
   m_TagString: Untagged
@@ -2714,7 +2766,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &6860518780350320384
+--- !u!54 &4806874212345624431
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2722,8 +2774,8 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3112433434769063893}
   serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 1.5
+  m_Mass: 3
+  m_Drag: 1
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -2753,7 +2805,7 @@ GameObject:
   - component: {fileID: 8028120660691464993}
   - component: {fileID: 8905756907229638145}
   - component: {fileID: 5495744925683882102}
-  - component: {fileID: 4485996825132919775}
+  - component: {fileID: 6672666623325676995}
   m_Layer: 0
   m_Name: seed(Clone) (45)
   m_TagString: Untagged
@@ -2847,7 +2899,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &4485996825132919775
+--- !u!54 &6672666623325676995
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2855,8 +2907,8 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3260873519812713074}
   serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 1.5
+  m_Mass: 3
+  m_Drag: 1
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -2886,7 +2938,7 @@ GameObject:
   - component: {fileID: 7734491658923556961}
   - component: {fileID: 4279204016762305486}
   - component: {fileID: 6088183246624427969}
-  - component: {fileID: 1666419127939168651}
+  - component: {fileID: 6904320453997989889}
   m_Layer: 0
   m_Name: seed(Clone) (3)
   m_TagString: Untagged
@@ -2980,7 +3032,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &1666419127939168651
+--- !u!54 &6904320453997989889
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2988,8 +3040,8 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3310808652720403247}
   serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 1.5
+  m_Mass: 3
+  m_Drag: 1
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -3019,7 +3071,7 @@ GameObject:
   - component: {fileID: 2975743393840078583}
   - component: {fileID: 3441411597749433204}
   - component: {fileID: 1713756733293343363}
-  - component: {fileID: 8341075866655016311}
+  - component: {fileID: 1595407609171160381}
   m_Layer: 0
   m_Name: seed(Clone) (37)
   m_TagString: Untagged
@@ -3113,7 +3165,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &8341075866655016311
+--- !u!54 &1595407609171160381
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3121,8 +3173,8 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3370683269265155753}
   serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 1.5
+  m_Mass: 3
+  m_Drag: 1
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -3152,7 +3204,7 @@ GameObject:
   - component: {fileID: 6639440239600638701}
   - component: {fileID: 5755173196194422489}
   - component: {fileID: 6944923524007640629}
-  - component: {fileID: 5609711721960938200}
+  - component: {fileID: 1876863609223322239}
   m_Layer: 0
   m_Name: seed(Clone) (34)
   m_TagString: Untagged
@@ -3246,7 +3298,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &5609711721960938200
+--- !u!54 &1876863609223322239
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3254,8 +3306,8 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3456490792613641879}
   serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 1.5
+  m_Mass: 3
+  m_Drag: 1
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -3285,7 +3337,7 @@ GameObject:
   - component: {fileID: 6026609993400058179}
   - component: {fileID: 3007293370831089423}
   - component: {fileID: 7651350944770912058}
-  - component: {fileID: 1523803302212578054}
+  - component: {fileID: 3978719606716786745}
   m_Layer: 0
   m_Name: seed(Clone) (41)
   m_TagString: Untagged
@@ -3379,7 +3431,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &1523803302212578054
+--- !u!54 &3978719606716786745
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3387,8 +3439,8 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3461296895285022185}
   serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 1.5
+  m_Mass: 3
+  m_Drag: 1
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -3418,7 +3470,7 @@ GameObject:
   - component: {fileID: 4846072611208277599}
   - component: {fileID: 2752561067951778473}
   - component: {fileID: 7167858222963204213}
-  - component: {fileID: 4013053153945542909}
+  - component: {fileID: 6751214711932246003}
   m_Layer: 0
   m_Name: seed(Clone) (32)
   m_TagString: Untagged
@@ -3512,7 +3564,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &4013053153945542909
+--- !u!54 &6751214711932246003
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3520,8 +3572,8 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3695650057036483561}
   serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 1.5
+  m_Mass: 3
+  m_Drag: 1
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -3551,7 +3603,7 @@ GameObject:
   - component: {fileID: 5656292057726927997}
   - component: {fileID: 6283990810884023233}
   - component: {fileID: 124632765804112433}
-  - component: {fileID: 5733769377725359267}
+  - component: {fileID: 2273113178022550794}
   m_Layer: 0
   m_Name: seed(Clone) (30)
   m_TagString: Untagged
@@ -3645,7 +3697,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &5733769377725359267
+--- !u!54 &2273113178022550794
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3653,8 +3705,8 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3943418809592987658}
   serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 1.5
+  m_Mass: 3
+  m_Drag: 1
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -3684,7 +3736,7 @@ GameObject:
   - component: {fileID: 67235562775282190}
   - component: {fileID: 3406999653342042010}
   - component: {fileID: 4737517244815150622}
-  - component: {fileID: 3507979802007247716}
+  - component: {fileID: 6985873757934298438}
   m_Layer: 0
   m_Name: seed(Clone) (7)
   m_TagString: Untagged
@@ -3778,7 +3830,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &3507979802007247716
+--- !u!54 &6985873757934298438
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3786,8 +3838,8 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4117429661857791863}
   serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 1.5
+  m_Mass: 3
+  m_Drag: 1
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -3817,7 +3869,7 @@ GameObject:
   - component: {fileID: 668006130348533551}
   - component: {fileID: 803972403602873681}
   - component: {fileID: 1545449985965611852}
-  - component: {fileID: 7555435982608993152}
+  - component: {fileID: 7429232009519787982}
   m_Layer: 0
   m_Name: seed(Clone) (23)
   m_TagString: Untagged
@@ -3911,7 +3963,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &7555435982608993152
+--- !u!54 &7429232009519787982
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3919,8 +3971,8 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4394311125885458470}
   serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 1.5
+  m_Mass: 3
+  m_Drag: 1
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -3950,7 +4002,7 @@ GameObject:
   - component: {fileID: 6420225947335388775}
   - component: {fileID: 7049001696383280757}
   - component: {fileID: 490636374533216582}
-  - component: {fileID: 6964939093703975225}
+  - component: {fileID: 1508444462648662068}
   m_Layer: 0
   m_Name: seed(Clone) (24)
   m_TagString: Untagged
@@ -4044,7 +4096,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &6964939093703975225
+--- !u!54 &1508444462648662068
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4052,8 +4104,8 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4519573827044908832}
   serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 1.5
+  m_Mass: 3
+  m_Drag: 1
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -4083,7 +4135,7 @@ GameObject:
   - component: {fileID: 8165517137373421162}
   - component: {fileID: 655552796256268760}
   - component: {fileID: 8973398545795582235}
-  - component: {fileID: 4465381850074756804}
+  - component: {fileID: 3203742383710785640}
   m_Layer: 0
   m_Name: seed(Clone) (19)
   m_TagString: Untagged
@@ -4177,7 +4229,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &4465381850074756804
+--- !u!54 &3203742383710785640
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4185,8 +4237,8 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4558833564290321233}
   serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 1.5
+  m_Mass: 3
+  m_Drag: 1
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -4216,7 +4268,7 @@ GameObject:
   - component: {fileID: 3787203802095511904}
   - component: {fileID: 8832281146553579848}
   - component: {fileID: 735908755157066578}
-  - component: {fileID: 138099107863920900}
+  - component: {fileID: 4962183515823247968}
   m_Layer: 0
   m_Name: seed(Clone) (15)
   m_TagString: Untagged
@@ -4310,7 +4362,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &138099107863920900
+--- !u!54 &4962183515823247968
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4318,8 +4370,8 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5052515682689089197}
   serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 1.5
+  m_Mass: 3
+  m_Drag: 1
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -4337,6 +4389,88 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &5441182456979038496
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3217674017497822281}
+  - component: {fileID: 5988676123437891030}
+  - component: {fileID: 7141344082855527117}
+  - component: {fileID: 7978076139221028791}
+  m_Layer: 0
+  m_Name: SwayController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3217674017497822281
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5441182456979038496}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.008726558, y: -0, z: -0, w: 0.999962}
+  m_LocalPosition: {x: 0.20500654, y: 0.57925385, z: -0.086994946}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1357795468922190994}
+  m_LocalEulerAnglesHint: {x: 1, y: 0, z: 0}
+--- !u!114 &5988676123437891030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5441182456979038496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a8e85ee97ec34b74b477d51c8bd65fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetObject: {fileID: 7221178425186911122}
+  trigger: 1
+  rotationOffset: {x: 6, y: 0, z: 0}
+  swaySpeed: 1.3
+--- !u!114 &7141344082855527117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5441182456979038496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a8e85ee97ec34b74b477d51c8bd65fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetObject: {fileID: 5246113880581459181}
+  trigger: 1
+  rotationOffset: {x: 4, y: 0, z: 0}
+  swaySpeed: 1.3
+--- !u!114 &7978076139221028791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5441182456979038496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a8e85ee97ec34b74b477d51c8bd65fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetObject: {fileID: 5858298611630951755}
+  trigger: 1
+  rotationOffset: {x: 2, y: 0, z: 0}
+  swaySpeed: 1.3
 --- !u!1 &5484409039293018249
 GameObject:
   m_ObjectHideFlags: 0
@@ -4349,7 +4483,7 @@ GameObject:
   - component: {fileID: 4792058839105627390}
   - component: {fileID: 4784866292615547663}
   - component: {fileID: 8165929486328082906}
-  - component: {fileID: 7834903711744653593}
+  - component: {fileID: 4494392005680669336}
   m_Layer: 0
   m_Name: seed(Clone) (2)
   m_TagString: Untagged
@@ -4443,7 +4577,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &7834903711744653593
+--- !u!54 &4494392005680669336
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4451,8 +4585,8 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5484409039293018249}
   serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 1.5
+  m_Mass: 3
+  m_Drag: 1
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -4482,7 +4616,7 @@ GameObject:
   - component: {fileID: 2941912788762704730}
   - component: {fileID: 3083584431214884786}
   - component: {fileID: 6280567113039303895}
-  - component: {fileID: 1066265792104259136}
+  - component: {fileID: 3835471900393615389}
   m_Layer: 0
   m_Name: seed(Clone) (16)
   m_TagString: Untagged
@@ -4576,7 +4710,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &1066265792104259136
+--- !u!54 &3835471900393615389
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4584,8 +4718,8 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5496469818357115924}
   serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 1.5
+  m_Mass: 3
+  m_Drag: 1
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -4615,7 +4749,7 @@ GameObject:
   - component: {fileID: 142196017923513501}
   - component: {fileID: 4980574495760114239}
   - component: {fileID: 6188898081314694806}
-  - component: {fileID: 1686303243406865362}
+  - component: {fileID: 8691401961439436249}
   m_Layer: 0
   m_Name: seed(Clone) (10)
   m_TagString: Untagged
@@ -4709,7 +4843,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &1686303243406865362
+--- !u!54 &8691401961439436249
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4717,8 +4851,8 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5909220306432701584}
   serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 1.5
+  m_Mass: 3
+  m_Drag: 1
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -4748,7 +4882,7 @@ GameObject:
   - component: {fileID: 4063072658274146971}
   - component: {fileID: 3644177925104019683}
   - component: {fileID: 5445047620486817437}
-  - component: {fileID: 1328393034878840840}
+  - component: {fileID: 636549919979400743}
   m_Layer: 0
   m_Name: seed(Clone) (4)
   m_TagString: Untagged
@@ -4842,7 +4976,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &1328393034878840840
+--- !u!54 &636549919979400743
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4850,8 +4984,8 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5984290704501894612}
   serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 1.5
+  m_Mass: 3
+  m_Drag: 1
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -4881,7 +5015,7 @@ GameObject:
   - component: {fileID: 5253009549781062870}
   - component: {fileID: 7227604249632483264}
   - component: {fileID: 9218151231875600763}
-  - component: {fileID: 6623683029024248953}
+  - component: {fileID: 3352399647424528927}
   m_Layer: 0
   m_Name: seed(Clone) (49)
   m_TagString: Untagged
@@ -4975,7 +5109,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &6623683029024248953
+--- !u!54 &3352399647424528927
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4983,8 +5117,8 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6258643143545734260}
   serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 1.5
+  m_Mass: 3
+  m_Drag: 1
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -5014,7 +5148,7 @@ GameObject:
   - component: {fileID: 6963430502702713041}
   - component: {fileID: 5563210827199344737}
   - component: {fileID: 6129650627990691638}
-  - component: {fileID: 5147544061685722961}
+  - component: {fileID: 1085932778231469045}
   m_Layer: 0
   m_Name: seed(Clone) (12)
   m_TagString: Untagged
@@ -5108,7 +5242,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &5147544061685722961
+--- !u!54 &1085932778231469045
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5116,8 +5250,8 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6274765174470101224}
   serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 1.5
+  m_Mass: 3
+  m_Drag: 1
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -5147,7 +5281,7 @@ GameObject:
   - component: {fileID: 888416893262543908}
   - component: {fileID: 487418137270477145}
   - component: {fileID: 1134644240910004899}
-  - component: {fileID: 1784429770270829069}
+  - component: {fileID: 5543261913664765728}
   m_Layer: 0
   m_Name: seed(Clone) (28)
   m_TagString: Untagged
@@ -5241,7 +5375,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &1784429770270829069
+--- !u!54 &5543261913664765728
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5249,8 +5383,8 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6440156693188841021}
   serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 1.5
+  m_Mass: 3
+  m_Drag: 1
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -5280,7 +5414,7 @@ GameObject:
   - component: {fileID: 6641401191512319126}
   - component: {fileID: 2729259336264463975}
   - component: {fileID: 9092367993526241731}
-  - component: {fileID: 622656782959564330}
+  - component: {fileID: 8264219911470614700}
   m_Layer: 0
   m_Name: seed(Clone) (20)
   m_TagString: Untagged
@@ -5374,7 +5508,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &622656782959564330
+--- !u!54 &8264219911470614700
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5382,8 +5516,8 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6926359968211542747}
   serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 1.5
+  m_Mass: 3
+  m_Drag: 1
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -5413,7 +5547,7 @@ GameObject:
   - component: {fileID: 1074476683200185358}
   - component: {fileID: 411381564451139687}
   - component: {fileID: 3790385124489798553}
-  - component: {fileID: 8180753024763486186}
+  - component: {fileID: 5424888368288364715}
   m_Layer: 0
   m_Name: seed(Clone) (21)
   m_TagString: Untagged
@@ -5507,7 +5641,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &8180753024763486186
+--- !u!54 &5424888368288364715
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5515,8 +5649,8 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7112284363277119437}
   serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 1.5
+  m_Mass: 3
+  m_Drag: 1
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -5546,7 +5680,7 @@ GameObject:
   - component: {fileID: 4706013838229890284}
   - component: {fileID: 5344268208990265764}
   - component: {fileID: 5495706031612805732}
-  - component: {fileID: 6330767062230217653}
+  - component: {fileID: 4909836158944145689}
   m_Layer: 0
   m_Name: seed(Clone) (31)
   m_TagString: Untagged
@@ -5640,7 +5774,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &6330767062230217653
+--- !u!54 &4909836158944145689
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5648,8 +5782,8 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7721966079780833331}
   serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 1.5
+  m_Mass: 3
+  m_Drag: 1
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -5679,7 +5813,7 @@ GameObject:
   - component: {fileID: 5389802484081460671}
   - component: {fileID: 7027094743926411178}
   - component: {fileID: 1674255716315383185}
-  - component: {fileID: 3170385476513799609}
+  - component: {fileID: 3752696396177159394}
   m_Layer: 0
   m_Name: seed(Clone) (27)
   m_TagString: Untagged
@@ -5773,7 +5907,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &3170385476513799609
+--- !u!54 &3752696396177159394
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5781,8 +5915,8 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7918681766280918773}
   serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 1.5
+  m_Mass: 3
+  m_Drag: 1
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -5812,7 +5946,7 @@ GameObject:
   - component: {fileID: 1296524359686914200}
   - component: {fileID: 4428800096096961450}
   - component: {fileID: 2125052953876182032}
-  - component: {fileID: 7844566046922280634}
+  - component: {fileID: 4288825679408608537}
   m_Layer: 0
   m_Name: seed(Clone)
   m_TagString: Untagged
@@ -5906,7 +6040,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &7844566046922280634
+--- !u!54 &4288825679408608537
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5914,8 +6048,8 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8114747868512620807}
   serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 1.5
+  m_Mass: 3
+  m_Drag: 1
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -5945,7 +6079,7 @@ GameObject:
   - component: {fileID: 6608486645661597535}
   - component: {fileID: 8736532459817814469}
   - component: {fileID: 521618653625435737}
-  - component: {fileID: 6231463340203781949}
+  - component: {fileID: 7351787506003889331}
   m_Layer: 0
   m_Name: seed(Clone) (11)
   m_TagString: Untagged
@@ -6039,7 +6173,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &6231463340203781949
+--- !u!54 &7351787506003889331
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6047,8 +6181,8 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8504192574433121779}
   serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 1.5
+  m_Mass: 3
+  m_Drag: 1
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -6078,7 +6212,7 @@ GameObject:
   - component: {fileID: 4669220200621872241}
   - component: {fileID: 5560474131435345793}
   - component: {fileID: 3000529780851739177}
-  - component: {fileID: 2843720890445658135}
+  - component: {fileID: 6519242394078846947}
   m_Layer: 0
   m_Name: seed(Clone) (29)
   m_TagString: Untagged
@@ -6172,7 +6306,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &2843720890445658135
+--- !u!54 &6519242394078846947
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6180,8 +6314,8 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8537616744434474638}
   serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 1.5
+  m_Mass: 3
+  m_Drag: 1
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -6211,7 +6345,7 @@ GameObject:
   - component: {fileID: 1104636273208252901}
   - component: {fileID: 5659712686309394793}
   - component: {fileID: 747715996612149988}
-  - component: {fileID: 6635494042920687202}
+  - component: {fileID: 3340131637228779306}
   m_Layer: 0
   m_Name: seed(Clone) (48)
   m_TagString: Untagged
@@ -6305,7 +6439,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &6635494042920687202
+--- !u!54 &3340131637228779306
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6313,8 +6447,8 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8616867666609385414}
   serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 1.5
+  m_Mass: 3
+  m_Drag: 1
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -6344,7 +6478,7 @@ GameObject:
   - component: {fileID: 1915697865026437970}
   - component: {fileID: 8004669497053042475}
   - component: {fileID: 686851930127292608}
-  - component: {fileID: 2080095412530573728}
+  - component: {fileID: 7527871994415314905}
   m_Layer: 0
   m_Name: seed(Clone) (13)
   m_TagString: Untagged
@@ -6438,7 +6572,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &2080095412530573728
+--- !u!54 &7527871994415314905
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6446,8 +6580,8 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8650862316275216361}
   serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 1.5
+  m_Mass: 3
+  m_Drag: 1
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -6477,7 +6611,7 @@ GameObject:
   - component: {fileID: 9120480383083766299}
   - component: {fileID: 1724857540305357812}
   - component: {fileID: 4599850771018739388}
-  - component: {fileID: 557294536555166661}
+  - component: {fileID: 7551480048816355538}
   m_Layer: 0
   m_Name: seed(Clone) (9)
   m_TagString: Untagged
@@ -6571,7 +6705,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &557294536555166661
+--- !u!54 &7551480048816355538
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6579,8 +6713,8 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8706652591344464652}
   serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 1.5
+  m_Mass: 3
+  m_Drag: 1
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -6610,7 +6744,7 @@ GameObject:
   - component: {fileID: 8223986938763749783}
   - component: {fileID: 7930521485757689446}
   - component: {fileID: 8335127945827120839}
-  - component: {fileID: 8737142749462994841}
+  - component: {fileID: 4751749527676597654}
   m_Layer: 0
   m_Name: seed(Clone) (38)
   m_TagString: Untagged
@@ -6704,7 +6838,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &8737142749462994841
+--- !u!54 &4751749527676597654
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6712,8 +6846,8 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8850001267833295230}
   serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 1.5
+  m_Mass: 3
+  m_Drag: 1
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -6812,13 +6946,39 @@ PrefabInstance:
     - {fileID: -8700617353114198275, guid: 6835d902688d34fceabed3f9a77335d2, type: 3}
     - {fileID: 65702495048144492, guid: 6835d902688d34fceabed3f9a77335d2, type: 3}
     m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6835d902688d34fceabed3f9a77335d2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3217674017497822281}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6835d902688d34fceabed3f9a77335d2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2451615785961879505}
     - targetCorrespondingSourceObject: {fileID: -9191885658020995961, guid: 6835d902688d34fceabed3f9a77335d2, type: 3}
       insertIndex: -1
       addedObject: {fileID: 8098620643980573558}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6835d902688d34fceabed3f9a77335d2, type: 3}
+--- !u!4 &1357795468922190994 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6835d902688d34fceabed3f9a77335d2, type: 3}
+  m_PrefabInstance: {fileID: 1539495179373812601}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1527492149592328190 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -9191885658020995961, guid: 6835d902688d34fceabed3f9a77335d2, type: 3}
+  m_PrefabInstance: {fileID: 1539495179373812601}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5246113880581459181 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -2481322372141066348, guid: 6835d902688d34fceabed3f9a77335d2, type: 3}
+  m_PrefabInstance: {fileID: 1539495179373812601}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5858298611630951755 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -4318466909140036046, guid: 6835d902688d34fceabed3f9a77335d2, type: 3}
+  m_PrefabInstance: {fileID: 1539495179373812601}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7221178425186911122 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1050564457501320981, guid: 6835d902688d34fceabed3f9a77335d2, type: 3}
   m_PrefabInstance: {fileID: 1539495179373812601}
   m_PrefabAsset: {fileID: 0}
