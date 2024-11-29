@@ -8,33 +8,67 @@ public class SystemController : MonoBehaviour {
     public bool started;
     public bool finished;
 
-    public Text startText; 
-    public Text finishText;
+    public GameObject dandelionGeneratorObject;
+    private GenerateObj dandelionGenerator;
+    public GameObject swayControllerObject;
+    private SwayController[] swayControllers;
+    private Vector3 originalRotationOffset;
+    public float swayOffset;
+
+    public GameObject seedFlyControllerObject;
+    private SeedFly seedFlyController;
+    private float originalSwaySpeed = 1f;
 
     // timer
     public float TIMER;
+    public float CREATE_TIMER;
     private float timeRemaining;
+    private float timeRemainingToCreate;
 
     // amplify range
     public float MIN_AMPLIFY;
     public float MAX_AMPLIFY;
+    public float MAX_GAME_OVER_AMPLIFY;
 
     // Start is called before the first frame update
     void Start() {
         started = false;
         finished = false;
 
-        TIMER = 4f;
+        TIMER = 10f;
+        CREATE_TIMER = 0.5f;
         timeRemaining = TIMER;
+        timeRemainingToCreate = CREATE_TIMER;
 
-        MAX_AMPLIFY = 0.3f;
-        MIN_AMPLIFY = 0.2f;
+        MIN_AMPLIFY = 0.4f;
+        MAX_AMPLIFY = 0.6f;
+        MAX_GAME_OVER_AMPLIFY = 0.7f;
+
+        dandelionGenerator = dandelionGeneratorObject.GetComponent<GenerateObj>();
+        swayControllers = swayControllerObject.GetComponents<SwayController>();
+        foreach (SwayController swayController in swayControllers) {
+            originalRotationOffset = swayController.rotationOffset;
+            originalSwaySpeed = swayController.swaySpeed;
+        }
+        swayOffset = 1f;
+        seedFlyController = seedFlyControllerObject.GetComponent<SeedFly>();
     }
 
     // Update is called once per frame
     void Update() {
-        startText.enabled = started;
-        finishText.enabled = finished;
+        if (finished) {
+            return;
+        }
+
+        swayOffset = 0.5f + (amplify * 5f);
+        foreach (SwayController swayController in swayControllers) {
+            swayController.rotationOffset = originalRotationOffset * swayOffset;
+            swayController.swaySpeed = originalSwaySpeed * swayOffset;
+        }
+        if (isGameOver()) {
+            seedFlyController.trigger = true;
+            finished = true;
+        }
 
         if (!started || finished) {
             return;
@@ -42,8 +76,15 @@ public class SystemController : MonoBehaviour {
 
         if (isWithinRange()) {
             timeRemaining -= Time.deltaTime;
+            timeRemainingToCreate -= Time.deltaTime;
         } else {
             timeRemaining = TIMER;
+            timeRemainingToCreate = CREATE_TIMER;
+        }
+
+        if (timeRemainingToCreate <= 0f) {
+            dandelionGenerator.GenerateOneObj();
+            timeRemainingToCreate = CREATE_TIMER;
         }
 
         if (timeRemaining <= 0f) {
@@ -53,5 +94,9 @@ public class SystemController : MonoBehaviour {
 
     public bool isWithinRange() {
         return (amplify >= MIN_AMPLIFY && amplify <= MAX_AMPLIFY);
+    }
+
+    public bool isGameOver() {
+        return (amplify >= MAX_GAME_OVER_AMPLIFY);
     }
 }
