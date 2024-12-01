@@ -35,7 +35,7 @@ public class SystemController : MonoBehaviour {
         started = false;
         finished = false;
 
-        TIMER = 10f;
+        TIMER = 8f;
         CREATE_TIMER = 0.5f;
         timeRemaining = TIMER;
         timeRemainingToCreate = CREATE_TIMER;
