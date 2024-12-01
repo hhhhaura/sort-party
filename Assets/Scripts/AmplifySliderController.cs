@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class AmplifySliderController : MonoBehaviour
 {
+    private Text countDownText;
     private SystemController systemController;
 
     private RectTransform actualAmplifyRectTransform;
@@ -17,6 +19,7 @@ public class AmplifySliderController : MonoBehaviour
 
     // Start is called before the first frame update
     void Start() {
+        countDownText = gameObject.GetComponentInChildren<Text>();
         actualAmplifyRectTransform = gameObject.transform.GetChild(1).gameObject.GetComponent<RectTransform>();
         systemController = GameObject.Find("System").GetComponent<SystemController>();
         systemController.amplify = 0.0f;
@@ -25,7 +28,7 @@ public class AmplifySliderController : MonoBehaviour
         MIN_Y = -240;
         OFFSET = MAX_Y - MIN_Y;
 
-        TIMER = 1.5f;
+        TIMER = 3.2f;
         timeRemaining = TIMER;
     }
 
@@ -36,8 +39,10 @@ public class AmplifySliderController : MonoBehaviour
 
         if (systemController.isWithinRange()) {
             timeRemaining -= Time.deltaTime;
+            countDownText.text = "" + (int)timeRemaining;
         } else {
             timeRemaining = TIMER;
+            countDownText.text = "";
         }
 
         if (timeRemaining <= 0f) {
