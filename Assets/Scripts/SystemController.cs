@@ -4,7 +4,8 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class SystemController : MonoBehaviour {
-    public float amplify;
+    public float amplitude;
+    public float pitch;
     public bool started;
     public bool finished;
 
@@ -25,7 +26,7 @@ public class SystemController : MonoBehaviour {
     private float timeRemaining;
     private float timeRemainingToCreate;
 
-    // amplify range
+    // amplitude range
     public float MIN_AMPLIFY;
     public float MAX_AMPLIFY;
     public float MAX_GAME_OVER_AMPLIFY;
@@ -60,7 +61,7 @@ public class SystemController : MonoBehaviour {
             return;
         }
 
-        swayOffset = 0.5f + (amplify * 5f);
+        swayOffset = 0.5f + (amplitude * 5f);
         foreach (SwayController swayController in swayControllers) {
             swayController.rotationOffset = originalRotationOffset * swayOffset;
             swayController.swaySpeed = originalSwaySpeed * swayOffset;
@@ -93,10 +94,10 @@ public class SystemController : MonoBehaviour {
     }
 
     public bool isWithinRange() {
-        return (amplify >= MIN_AMPLIFY && amplify <= MAX_AMPLIFY);
+        return (amplitude >= MIN_AMPLIFY && amplitude <= MAX_AMPLIFY);
     }
 
     public bool isGameOver() {
-        return (amplify >= MAX_GAME_OVER_AMPLIFY);
+        return (amplitude >= MAX_GAME_OVER_AMPLIFY);
     }
 }

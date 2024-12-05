@@ -22,7 +22,7 @@ public class AmplifySliderController : MonoBehaviour
         countDownText = gameObject.GetComponentInChildren<Text>();
         actualAmplifyRectTransform = gameObject.transform.GetChild(1).gameObject.GetComponent<RectTransform>();
         systemController = GameObject.Find("System").GetComponent<SystemController>();
-        systemController.amplify = 0.0f;
+        systemController.amplitude = 0.0f;
 
         MAX_Y = 240;
         MIN_Y = -240;
@@ -34,7 +34,7 @@ public class AmplifySliderController : MonoBehaviour
 
     // Update is called once per frame
     void Update() {
-        float posY = (systemController.amplify * OFFSET) + MIN_Y;
+        float posY = (systemController.amplitude * OFFSET) + MIN_Y;
         actualAmplifyRectTransform.anchoredPosition = new Vector2(0, posY);
 
         if (systemController.isWithinRange()) {
