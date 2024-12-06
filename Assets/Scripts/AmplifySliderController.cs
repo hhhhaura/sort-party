@@ -44,7 +44,7 @@ public class AmplifySliderController : MonoBehaviour
         if (systemController.isWithinRange()) {
             timeRemaining -= Time.deltaTime;
             countDownText.text = "" + (int)timeRemaining;
-			CDTextImage.sprite = CDSprite[(int) timeRemaining + 1];
+            CDTextImage.sprite = CDSprite[Mathf.Min((int) timeRemaining + 1, CDSprite.Count - 1)];
 			CDTextImage.color = new Color(255f, 255f, 255f);
             CDBGImage.fillAmount = timeRemaining - (int) timeRemaining;
 		} else {

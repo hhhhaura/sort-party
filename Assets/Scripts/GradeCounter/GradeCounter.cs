@@ -11,11 +11,13 @@ public class GradeCounter : MonoBehaviour
 
 	public void NewDandelion()
     {
+        Debug.Log("NewDandelion");
         AliveDandelion++;
 	}
 
     public void AllDandelionDead()
     {
+        Debug.Log("AllDandelionDead");
         AliveDandelion = 0;
 	}
 
