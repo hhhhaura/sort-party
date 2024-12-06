@@ -5,6 +5,10 @@ using UnityEngine.UI;
 
 public class AmplifySliderController : MonoBehaviour
 {
+    public List<Sprite> CDSprite;
+    public Image CDTextImage;
+    public Image CDBGImage;
+    public GradeCounter gradeCounter;
     private Text countDownText;
     private SystemController systemController;
 
@@ -40,10 +44,17 @@ public class AmplifySliderController : MonoBehaviour
         if (systemController.isWithinRange()) {
             timeRemaining -= Time.deltaTime;
             countDownText.text = "" + (int)timeRemaining;
-        } else {
+			CDTextImage.sprite = CDSprite[(int) timeRemaining + 1];
+			CDTextImage.color = new Color(255f, 255f, 255f);
+            CDBGImage.fillAmount = timeRemaining - (int) timeRemaining;
+		} else {
             timeRemaining = TIMER;
             countDownText.text = "";
-        }
+			CDTextImage.sprite = null;
+            CDTextImage.color = new Color(255f, 255f, 255f, 0f);
+            CDBGImage.fillAmount = 0f;
+            gradeCounter.AllDandelionDead();
+		}
 
         if (timeRemaining <= 0f) {
             gameObject.SetActive(false);

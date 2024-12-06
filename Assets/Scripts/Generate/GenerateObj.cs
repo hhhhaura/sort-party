@@ -5,11 +5,18 @@ using UnityEngine;
 public class GenerateObj : MonoBehaviour
 {
     public GameObject GenerateObjPrefab;
-		public SwayController swayController;
+	public SwayController swayController;
     List<GameObject> objs = new List<GameObject>();
     public BoxCollider GenerateArea;
 	public bool TestGenerate = true;
-    float GenerateTime = 1f;
+	public float MaxGenerateTime = 3f;
+	float GenerateTime = 3f;
+	GradeCounter gradeCounter;
+
+	private void Start()
+	{
+		gradeCounter = GetComponent<GradeCounter>();
+	}
 
 	// Update is called once per frame
 	void Update()
@@ -20,7 +27,7 @@ public class GenerateObj : MonoBehaviour
 			if (GenerateTime < 0f)
 			{
 				GenerateOneObj();
-				GenerateTime = 1f;
+				GenerateTime = MaxGenerateTime;
 			}
 		}
 	}
@@ -32,6 +39,10 @@ public class GenerateObj : MonoBehaviour
         newObj.transform.localScale = Vector3.one;
         objs.Add(newObj);
         newObj.transform.localPosition = RandomPointInBounds(GenerateArea.bounds);
+		if(gradeCounter)
+		{
+			gradeCounter.NewDandelion();
+		}
     }
 
 	public static Vector3 RandomPointInBounds(Bounds bounds)
